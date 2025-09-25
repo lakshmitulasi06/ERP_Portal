@@ -1,0 +1,16 @@
+.content-box {
+  background: #fff;
+  margin: 2.5rem auto;
+  padding: 2.5rem 2rem;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(37,117,252,0.18);
+  min-height: 320px;
+  font-size: 1.25rem;
+  color: #222;
+  border: 2.5px solid #2575fc;
+  transition: box-shadow 0.2s, border 0.2s;
+}
+.content-box:hover {
+  box-shadow: 0 12px 40px rgba(37,117,252,0.25);
+  border-color: #6a11cb;
+}

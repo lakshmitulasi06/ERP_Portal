@@ -1,0 +1,22 @@
+.sidebar {
+  width: 180px;
+  background: #2575fc;
+  color: #fff;
+  min-height: 100vh;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.sidebar-item {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border-radius: 8px 0 0 8px;
+  transition: background 0.2s;
+}
+
+.sidebar-item.active,
+.sidebar-item:hover {
+  background: #6a11cb;
+}
